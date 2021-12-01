@@ -1,6 +1,6 @@
 public class Post {
     private String id;
-    private String communityName;
+    private String postAuthor;
     private String date;
     private String contextMenu;
     private String postText;
@@ -9,10 +9,16 @@ public class Post {
     private String likeCounter;
     private boolean isLike;
     private CommentsInfo commentsInfo;
-    private String repostCounter;
+    private RepostInfo repostInfo;
     private boolean isRepost;
     private String viewCounter;
 
-    //getters + setters;
+    private String postType;
+    private String canPin;
+    private String canEdit;
+    private String canDelete;
+    private boolean isPined;
+
+    // + get/set на все поля
 
 }
