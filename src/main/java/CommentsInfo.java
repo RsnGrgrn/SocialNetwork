@@ -1,10 +1,10 @@
 public class CommentsInfo {
-    private String commentatorName;
-    private String commentText;
-    private String dateTime;
-    private String answer;
-    private String repost;
-    private String likeCounter;
-    private String answerCounter;
+    private int count;
+    private boolean can_post;
+    private boolean groups_can_post;
+    private boolean can_close;
+    private boolean can_open;
+
+    // + getters and setters
 
 }
